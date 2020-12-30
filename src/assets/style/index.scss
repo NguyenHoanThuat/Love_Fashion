@@ -1,0 +1,24 @@
+.container {
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@font-face {
+  src: url(../../fonts/Roboto-Black.ttf);
+  font-family: Roboto-Black;
+}
+
+@font-face {
+  src: url(../../fonts/Roboto-Light.ttf);
+  font-family: Roboto-Light;
+}

@@ -1,0 +1,106 @@
+.slider {
+  width: 100%;
+  position: relative;
+  .slider-main {
+    .slick-slider {
+      position: relative;
+      .slick-prev {
+        left: 0px;
+        height: 674px;
+        width: 100px;
+        position: absolute;
+        top: 0;
+      }
+      .slick-next {
+        right: 0px;
+        height: 674px;
+        width: 100px;
+        position: absolute;
+        top: 0;
+      }
+      .slick-dots {
+        position: absolute;
+        bottom: 115px;
+        right: 0;
+        width: 150px;
+        li {
+          margin: 0px;
+        }
+      }
+      .slick-list {
+        .slick-track {
+          .slider-content {
+            .slider-img {
+            }
+            .slider-click {
+              margin-top: 25px;
+              width: 500px;
+              .slider-subtitle {
+                margin-top: 10px;
+                .subtitle-text {
+                  font-size: 13px;
+                  font-family: Roboto-Light;
+                  color: #757575;
+                  text-transform: capitalize;
+                }
+              }
+              .slider-title {
+                margin-top: 10px;
+                .title-text {
+                  font-size: 26px;
+                  font-family: Roboto-Block;
+                  color: black;
+                  text-transform: uppercase;
+                }
+              }
+              .slider-button {
+                margin-top: 10px;
+                width: 225px;
+                height: 50px;
+                border: 1px solid black;
+                border-radius: 25px;
+                .button-text {
+                  font-size: 15px;
+                  font-family: Roboto-Light;
+                  color: black;
+                  text-transform: uppercase;
+                  height: 100%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+              }
+              .slider-button:hover {
+                cursor: pointer;
+              }
+              .slider-button:hover .button-text {
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .button-auto-play {
+    position: absolute;
+    top: 629px;
+    right: 120px;
+    z-index: 1;
+    .button-auto {
+      background-color: transparent;
+      border: none;
+      .MuiSvgIcon-root {
+        font-size: 20px;
+      }
+    }
+    .button-auto:hover {
+      cursor: pointer;
+    }
+    .button-auto:focus {
+      outline: none;
+      background-color: #ccc;
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,143 @@
+.product-selection {
+  background-color: #f6f6f6;
+  margin-top: 50px;
+  .product-selection-main {
+    .product-selection-date {
+      text-align: center;
+      padding-top: 25px;
+      .day {
+        margin-bottom: 15px;
+        .text-day {
+          font-size: 15px;
+          font-family: Roboto-Light;
+          color: black;
+        }
+      }
+      .between {
+        height: 1px;
+        width: 100px;
+        background-color: black;
+        margin: auto;
+      }
+      .mouth {
+        margin-top: 15px;
+        .text-mouth {
+          font-size: 15px;
+          font-family: Roboto-Light;
+          font-weight: 600;
+          color: black;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .selection {
+      text-align: center;
+      margin: 15px 0;
+      .text-selection {
+        font-size: 52px;
+        font-family: ROboto-Black;
+        text-transform: uppercase;
+      }
+    }
+    .product-selection-carousel {
+      margin-top: 25px;
+      position: relative;
+      padding-bottom: 75px;
+      .carousel-main {
+        .slick-slider {
+          position: relative;
+          .slick-dots {
+            position: absolute;
+            width: 60px;
+            left: 719px;
+            top: 615px;
+          }
+          .slick-list {
+            .carousel-content {
+              .carousel-container {
+                display: flex;
+                justify-content: space-around;
+                .product-card {
+                  .card-img {
+                    .product-img {
+                      width: 365px;
+                      height: 390px;
+                    }
+                  }
+                  .card-information {
+                    margin-top: 35px;
+                    .subtitle {
+                      text-align: center;
+                      .text-sub-title {
+                        font-size: 15px;
+                        font-family: Roboto-Black;
+                        text-transform: capitalize;
+                        color: black;
+                      }
+                    }
+                    .title {
+                      text-align: center;
+                      margin-top: 25px;
+                      margin-bottom: 50px;
+                      .text-title {
+                        font-size: 15px;
+                        font-family: Roboto-Light;
+                        text-transform: capitalize;
+                        color: black;
+                      }
+                    }
+                    .button:hover {
+                      cursor: pointer;
+                    }
+                    .button:hover .text-button {
+                      font-weight: 600;
+                    }
+                    .button {
+                      width: 150px;
+                      height: 50px;
+                      background-color: white;
+                      border: 1px solid black;
+                      border-radius: 25px;
+                      margin: auto;
+                      .text-button {
+                        font-size: 15px;
+                        font-family: Roboto-Light;
+                        text-transform: uppercase;
+                        color: black;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .button-auto-play {
+        position: absolute;
+        top: 619px;
+        right: 719px;
+        z-index: 1;
+        .button-auto {
+          background-color: transparent;
+          border: none;
+          .MuiSvgIcon-root {
+            font-size: 20px;
+          }
+        }
+        .button-auto:hover {
+          cursor: pointer;
+        }
+        .button-auto:focus {
+          outline: none;
+          background-color: #ccc;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

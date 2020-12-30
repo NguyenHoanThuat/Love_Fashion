@@ -1,0 +1,66 @@
+.man-fashion {
+  display: none;
+  position: absolute;
+  top: 46px;
+  left: -461px;
+  z-index: 1;
+  background-color: #fff;
+  .man-fashion-main {
+    margin: 0 15px;
+    padding-top: 20px;
+    .man-fashion-selection {
+      display: flex;
+      padding-inline-start: 0;
+      .man-fashion-selection-content {
+        margin: 0 15px;
+        .man-fashion-content {
+          .man-fashion-section {
+            margin-bottom: 35px;
+            .title {
+              margin-bottom: 15px;
+              text-align: start;
+              .title-text {
+                text-transform: uppercase;
+                font-family: Roboto-Black;
+                font-size: 13px;
+              }
+            }
+            .img {
+              margin-top: 5px;
+              margin-bottom: 25px;
+              .img-link {
+                .man-fashion-img {
+                  width: 210px;
+                  height: 125px;
+                }
+              }
+            }
+            .list {
+              padding-inline-start: 0;
+              .list-space {
+                height: 1px;
+                width: 50px;
+                margin: 25px 0;
+                background-color: #757577;
+              }
+              .list-content {
+                margin: 5px 0;
+                text-align: start;
+                .list-link {
+                  .list-text {
+                    font-family: Roboto-Light;
+                    font-size: 13px;
+                    color: black;
+                  }
+                  .list-text:hover {
+                    font-weight: 600;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

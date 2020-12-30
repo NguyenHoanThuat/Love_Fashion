@@ -1,0 +1,80 @@
+.fragrance {
+  display: none;
+  position: absolute;
+  top: 46px;
+  left: -635px;
+  z-index: 1;
+  background-color: #fff;
+  .fragrance-main {
+    margin: 0 15px;
+    padding-top: 20px;
+    .fragrance-selection {
+      display: flex;
+      padding-inline-start: 0;
+      .fragrance-selection-content {
+        margin: 0 15px;
+        .fragrance-section {
+          margin-bottom: 35px;
+          .title {
+            margin-bottom: 15px;
+            text-align: start;
+            .title-text {
+              text-transform: uppercase;
+              font-family: Roboto-Black;
+              font-size: 13px;
+              color: black;
+            }
+          }
+          .img:hover .text-img {
+            font-weight: 600;
+          }
+          .img {
+            margin-top: 5px;
+            margin-bottom: 25px;
+            .img-link {
+              .container-img {
+                display: flex;
+                .fragrance-img {
+                  width: 260px;
+                  height: 155px;
+                }
+              }
+            }
+            .text-img-link {
+              display: flex;
+              margin-top: 5px;
+              .text-img {
+                font-family: Roboto-Light;
+                font-size: 13px;
+                color: #757575;
+              }
+            }
+          }
+          .list {
+            padding-inline-start: 0;
+            .list-space {
+              height: 1px;
+              width: 50px;
+              margin: 25px 0;
+              background-color: #757577;
+            }
+            .list-content {
+              margin: 5px 0;
+              text-align: start;
+              .list-link {
+                .list-text {
+                  font-family: Roboto-Light;
+                  font-size: 13px;
+                  color: black;
+                }
+                .list-text:hover {
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

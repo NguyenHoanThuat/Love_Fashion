@@ -1,0 +1,88 @@
+.gift {
+  position: absolute;
+  top: 46px;
+  left: -45px;
+  display: none;
+  z-index: 1;
+  background-color: #fff;
+  .gift-main {
+    width: 100%;
+    padding-top: 20px;
+    .gift-selection {
+      display: flex;
+      .gift-selection-content {
+        display: flex;
+        flex: 1;
+        .gift-content-left {
+          display: flex;
+          margin: auto;
+          .gift-img {
+            .gift-img-link {
+              .container-img {
+                .gift-left {
+                  width: 255px;
+                }
+              }
+            }
+          }
+          .gift-list {
+            margin-left: 25px;
+            .list-title {
+              text-align: start;
+              .list-title-link {
+                .list-title-text {
+                  font-family: Roboto-Black;
+                  text-transform: uppercase;
+                  color: black;
+                  font-size: 13px;
+                }
+              }
+            }
+            .list {
+              margin-top: 5px;
+              padding-inline-start: 0px;
+              .list-content {
+                margin-top: 5px;
+                text-align: start;
+                .list-content-link {
+                  .list-text {
+                    font-family: Roboto-Light;
+                    color: black;
+                    font-size: 13px;
+                  }
+                  .list-text:hover {
+                    font-weight: 600;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .gift-content-right {
+          margin: auto;
+          .title {
+            margin-bottom: 10px;
+            text-align: start;
+            .title-link {
+              .title-text {
+                font-family: Roboto-Black;
+                text-transform: uppercase;
+                color: black;
+                font-size: 13px;
+              }
+            }
+          }
+          .gift-img {
+            .gift-img-link {
+              .container-img {
+                .gift-right {
+                  width: 550px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
