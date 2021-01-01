@@ -6,6 +6,7 @@ import "./productContent.scss";
 import TextSubtitleBlack from "../../../../components/TextSubtitleBlack/index.jsx";
 import TextSubtitle from "../../../../components/TextSubtitle/index.jsx";
 import TextTitle from "../../../../components/TextTitle/index.jsx";
+import Discover from "../../../../components/Discover";
 
 ProductContent.propTypes = {
   obj: PropTypes.object,
@@ -28,8 +29,8 @@ function ProductContent(props) {
             />
           </div>
           <div className="information-product">
-            <TextSubtitleBlack text="J'adore" margin="10px 0" />
-            <TextSubtitle text="Eau de parfum infinissime" textAlign="start" />
+            <TextSubtitleBlack text={props.obj.subtitleBlack} margin="10px 0" />
+            <TextSubtitle text={props.obj.subtitle} textAlign="start" />
           </div>
         </div>
       ) : (
@@ -43,14 +44,12 @@ function ProductContent(props) {
           </div>
           <div className="information-product">
             <TextTitle
-              text="J’ADORE EAU DE PARFUM INFINISSIME"
+              text={props.obj.title}
               textAlign="center"
               margin="10px 0"
             />
-            <TextSubtitle
-              text="Discover a new J’adore: an endless burst of flowers released in an infinitely exalted bouquet."
-              margin="10px 0"
-            />
+            <TextSubtitle text={props.obj.subtitle} margin="10px 0" />
+            <Discover />
           </div>
         </div>
       )}

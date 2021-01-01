@@ -1,0 +1,17 @@
+.product-video {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  // border-top: 1px solid #e5e5e5;
+  .product-video-main {
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1150px;
+    height: 650px;
+    .product-video-content:focus {
+      outline: none;
+    }
+  }
+}
