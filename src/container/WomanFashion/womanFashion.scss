@@ -1,0 +1,29 @@
+.page-woman-fashion {
+  margin-top: 40px;
+  .page-woman-fashion-main {
+    width: 100%;
+    .fashion-introduce {
+      margin-top: 25px;
+      padding-top: 40px;
+      border-top: 1px solid #e5e5e5e5;
+      .img-introduce {
+        .introduce-img {
+          width: 100%;
+          height: 510px;
+        }
+      }
+    }
+    .list-product-fashion {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+    .landing-new {
+      margin-top: 40px;
+      .landing-new-main {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

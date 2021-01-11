@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Sliders from "./components/Slider/index.jsx";
 import ProductSelection from "./components/ProductSelection/index.jsx";
@@ -124,6 +124,10 @@ const bestProduct = {
 };
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="home">
       <div className="container">

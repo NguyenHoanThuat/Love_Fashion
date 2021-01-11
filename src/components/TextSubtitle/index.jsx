@@ -9,6 +9,7 @@ TextSubtitle.propTypes = {
   marginBottom: PropTypes.string,
   textAlign: PropTypes.string,
   margin: PropTypes.string,
+  fontWeight: PropTypes.string,
 };
 
 TextSubtitle.defaultProps = {
@@ -16,12 +17,16 @@ TextSubtitle.defaultProps = {
   marginBottom: "0px",
   textAlign: "center",
   margin: "0px",
+  fontWeight: "",
 };
 
 const Subtitle = Styled.div`
     margin: ${(props) => props.margin};
     margin-bottom: ${(props) => props.marginBottom};
     text-align: ${(props) => props.textAlign};
+    .text-subtitle {
+      font-weight: ${(props) => props.fontWeight};
+    }
 `;
 
 function TextSubtitle(props) {
@@ -31,6 +36,7 @@ function TextSubtitle(props) {
       margin={props.margin}
       marginBottom={props.marginBottom}
       textAlign={props.textAlign}
+      fontWeight={props.fontWeight}
     >
       <span className="text-subtitle">{props.text}</span>
     </Subtitle>

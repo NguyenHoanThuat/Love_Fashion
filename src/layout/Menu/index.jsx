@@ -24,7 +24,7 @@ function Menu() {
               </li>
               <li className="selection">
                 <div className="selection-content">
-                  <Link to="" className="selection-link">
+                  <Link to="woman-fashion" className="selection-link">
                     <span className="selection-text">
                       thời trang của phụ nữ
                     </span>
